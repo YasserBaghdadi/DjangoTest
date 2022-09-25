@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-8z88=$&1hn5mf8212xlb_^k))nvez%mmm%(&sc7(^k&$8q*z7q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -129,6 +129,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 INTERNAL_IPS = [
     "127.0.0.1",
     "localhost",
+    '*'
 ]
 
 
